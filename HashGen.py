@@ -52,17 +52,8 @@ class HashGen:
         self.terminal_width = max(min(shutil.get_terminal_size().columns - 2, 100), 80)
 
     def _print_header(self):
-        """Display centered ASCII art banner with corrected name"""
+        """Display header without ASCII art banner"""
         self._update_terminal_size()
-        header_text = r"""
-  _   _           _       ______          
- | | | |         | |      |  _  \         
- | |_| | __ _ ___| |__    | | | | ___ ___ 
- |  _  |/ _` / __| '_ \   | | | |/ _ \ __|
- | | | | (_| \__ \ | | |  | |/ /  __/ |   
- \_| |_/\__,_|___/_| |_|  |___/ \___|_|   
-        """
-        print(Fore.CYAN + Style.BRIGHT + header_text.center(self.terminal_width))
         print(
             Fore.MAGENTA
             + Style.BRIGHT
