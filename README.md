@@ -116,4 +116,3 @@ Feel free to fork this repository and open pull requests for improvements or bug
 ---
 
 Thank you for using Hash Gen! 🔒
-```
