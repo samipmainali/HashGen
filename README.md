@@ -106,7 +106,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
-Created by Samip Mainali.  
 Special thanks to the `hashlib` and `colorama` libraries for their functionality.
 
 ## Contributing
